@@ -1,0 +1,75 @@
+{
+  "checkpoint": "checkpoints/best_model.pth",
+  "dataset_split": "test",
+  "num_samples": 1002,
+  "pixel_accuracy": 0.4497490280210554,
+  "mean_iou": 0.19422005115117674,
+  "per_image_mean_iou": {
+    "mean": 0.18086749810694544,
+    "std": 0.020223340251468415,
+    "min": 0.10358871783293086,
+    "max": 0.2501961138347669
+  },
+  "class_metrics": {
+    "Background": {
+      "class_id": 0,
+      "iou": 0.0,
+      "intersection": 0.0,
+      "union": 0.0
+    },
+    "Trees": {
+      "class_id": 1,
+      "iou": 0.11838138104411469,
+      "intersection": 27406.0,
+      "union": 231506.0
+    },
+    "Lush Bushes": {
+      "class_id": 2,
+      "iou": 0.00014461946471657167,
+      "intersection": 272.0,
+      "union": 1880798.0
+    },
+    "Dry Grass": {
+      "class_id": 3,
+      "iou": 0.3726423865886594,
+      "intersection": 6891478.0,
+      "union": 18493543.0
+    },
+    "Dry Bushes": {
+      "class_id": 4,
+      "iou": 0.12645269672609497,
+      "intersection": 272337.0,
+      "union": 2153667.0
+    },
+    "Ground Clutter": {
+      "class_id": 5,
+      "iou": 0.0,
+      "intersection": 0.0,
+      "union": 24019654.0
+    },
+    "Logs": {
+      "class_id": 6,
+      "iou": 0.0,
+      "intersection": 0.0,
+      "union": 8186.0
+    },
+    "Rocks": {
+      "class_id": 7,
+      "iou": 0.020646553988761755,
+      "intersection": 239321.0,
+      "union": 11591329.0
+    },
+    "Landscape": {
+      "class_id": 8,
+      "iou": 0.3533682739577574,
+      "intersection": 10110966.0,
+      "union": 28613112.0
+    },
+    "Sky": {
+      "class_id": 9,
+      "iou": 0.9505645997416626,
+      "intersection": 11076204.0,
+      "union": 11652237.0
+    }
+  }
+}

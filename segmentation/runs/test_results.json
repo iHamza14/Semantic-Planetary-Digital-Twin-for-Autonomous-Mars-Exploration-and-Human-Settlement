@@ -1,0 +1,5 @@
+{
+    "num_test_images": 1002,
+    "model_path": "runs/best_model.pth",
+    "predictions_saved": "runs/predictions/"
+}

@@ -1,0 +1,49 @@
+# Model Configuration
+model:
+  name: "UNet"
+  input_channels: 3
+  num_classes: 10
+
+# Training Configuration
+training:
+  batch_size: 8
+  num_epochs: 50
+  learning_rate: 0.001
+  optimizer: "Adam"
+  weight_decay: 0.0001
+
+# Data Configuration
+data:
+  train_rgb: "data/train/rgb"
+  train_seg: "data/train/seg"
+  val_rgb: "data/val/rgb"
+  val_seg: "data/val/seg"
+  test_images: "data/testImages"
+  image_size: [256, 256]
+
+# Data Augmentation
+augmentation:
+  horizontal_flip: true
+  vertical_flip: false
+  rotation: 0
+  brightness: 0.2
+  contrast: 0.2
+
+# Output Configuration
+output:
+  checkpoint_dir: "runs"
+  visualization_dir: "runs/predictions"
+  save_frequency: 5
+
+# Class Information
+classes:
+  100: "Trees"
+  200: "Lush Bushes"
+  300: "Dry Grass"
+  500: "Dry Bushes"
+  550: "Ground Clutter"
+  600: "Flowers"
+  700: "Logs"
+  800: "Rocks"
+  7100: "Landscape"
+  10000: "Sky"
