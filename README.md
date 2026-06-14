@@ -35,6 +35,8 @@ Instead of a conventional U-Net, we design a **DINOv2-based transformer backbone
   <img src="docs/mars_demo.gif" alt="Mars Demo" width="900"/>
 </p>
 
+![Mars Demo](docs/mars_demo.gif)
+
 ---
 
 ## 1️⃣ Backbone – DINOv2 (Vision Transformer)
