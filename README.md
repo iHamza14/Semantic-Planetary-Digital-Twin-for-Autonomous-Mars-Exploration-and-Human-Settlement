@@ -32,9 +32,7 @@ Instead of a conventional U-Net, we design a **DINOv2-based transformer backbone
 </p>
 
 <p align="center">
-  <a href="docs/marsvideo.mp4">
-    <img src="docs/video_thumbnail.png" alt="Watch Demo" width="900"/>
-  </a>
+  <img src="docs/mars_demo.gif" alt="Mars Demo" width="900"/>
 </p>
 
 ---
