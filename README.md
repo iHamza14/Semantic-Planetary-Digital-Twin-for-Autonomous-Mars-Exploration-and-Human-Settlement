@@ -4,7 +4,7 @@
 ## 🏆 Team Information
 
 **Team Name:** ORCA
-**Project:** Offroad Semantic Scene Segmentation
+**Project:** Semantic-Planetary-Digital-Twin-for-Autonomous-Mars-Exploration-and-Human-Settlement
 
 ---
 
