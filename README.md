@@ -30,10 +30,10 @@ Instead of a conventional U-Net, we design a **DINOv2-based transformer backbone
 <p align="center">
   <img src="docs/model_architecture.jpeg" alt="Model Architecture" width="900"/>
 </p>
-
+<!-- 
 <p align="center">
   <img src="docs/mars_demo.gif" alt="Mars Demo" width="900"/>
-</p>
+</p> -->
 
 ![Mars Demo](docs/mars_demo.gif)
 
