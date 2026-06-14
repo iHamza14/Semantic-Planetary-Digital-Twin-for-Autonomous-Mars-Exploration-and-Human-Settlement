@@ -6,11 +6,12 @@
 **Team Name:** ORCA
 **Project:** Semantic-Planetary-Digital-Twin-for-Autonomous-Mars-Exploration-and-Human-Settlement
 
+
 ---
 
 # 🌵 Project Overview
 
-This project implements a **hybrid Transformer–CNN semantic segmentation architecture** tailored for off-road desert environments using synthetic data from Duality AI's Falcon platform.
+ORCA is a self-improving Mars intelligence platform that integrates multi-modal sensing, AI reasoning, and digital twin technology to support autonomous exploration and settlement planning. The system continuously learns from new mission data to deliver safer, smarter, and more efficient planetary operations.
 
 Instead of a conventional U-Net, we design a **DINOv2-based transformer backbone fused with a convolutional feature pyramid neck**, enabling:
 
@@ -28,6 +29,12 @@ Instead of a conventional U-Net, we design a **DINOv2-based transformer backbone
 
 <p align="center">
   <img src="docs/model_architecture.jpeg" alt="Model Architecture" width="900"/>
+</p>
+
+<p align="center">
+  <a href="docs/marsvideo.mp4">
+    <img src="docs/video_thumbnail.png" alt="Watch Demo" width="900"/>
+  </a>
 </p>
 
 ---
